@@ -1,0 +1,140 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+#menu ul {
+  display: inline-table;
+  position: relative;
+  color: #fff;
+}
+#menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    z-index: 100;
+    color: #fff;
+}
+#menu ul ul li {
+  float: none;
+  position: relative;
+  color: #fff;
+  padding-top: 13px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 13px;
+}
+#menu ul ul li:hover {
+  background-color: #ADD8E6;
+}
+#menu ul li:hover {
+  background-color: #80C6FF;
+}
+#menu li {
+  float: left;
+  width: 113px;
+  text-align: center;
+  color: #fff;
+}
+#menu ul ul ul {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  color: #fff;
+}
+#menu ul li:hover > ul {
+  display: block;
+  color: #fff;
+}
+#menu li a {
+  display: block;
+  padding: 0px;
+}
+#menu ul ul li a {
+  color: #ffffff;
+  line-height: 23px;
+}
+.after {
+  line-height: 20px;
+}
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+.logo_abt {
+    margin-left: 22%;
+    width: 150px;
+    margin-top: 60%;
+}
+.list_doc  {
+  list-style-type: disc;
+}
+.take {
+  color: #000000;
+  font-size: 120%;
+}
+.get {
+  float: left;
+}
+.fa {
+  color: #000000;
+}
+.fa:hover {
+  color: #00B8D4;
+}
+.soc-icon {
+  list-style-type: none;
+}
+.soc-icon li {
+  display: inline-block;
+  padding-left: 3%;
+}
+#newsnone {
+  display: none;
+}
